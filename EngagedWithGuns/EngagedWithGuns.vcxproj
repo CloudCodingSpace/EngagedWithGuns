@@ -149,7 +149,14 @@
     <ClCompile Include="dependencies\imgui\imgui_widgets.cpp" />
     <ClCompile Include="dependencies\stb\stb_image.cpp" />
     <ClCompile Include="dependencies\stb\stb_perlin.cpp" />
+    <ClCompile Include="src\Engine\Core\EGWindow.cpp" />
+    <ClCompile Include="src\Engine\EGEngine.cpp" />
     <ClCompile Include="src\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Engine\Core\EGWindow.h" />
+    <ClInclude Include="src\Engine\EGEngine.h" />
+    <ClInclude Include="src\Engine\Renderer\EGGraphicsAPI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
